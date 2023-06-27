@@ -1,7 +1,5 @@
-function getResponseFromAPI() {
-  return new Promise((resolve) => {
-    resolve('Promise is fulfilled!');
-  });
+/* eslint-disable */
+export default function getResponseFromAPI() {
+	return new Promise((resolve, reject) => {});
 }
 
-export default getResponseFromAPI;
