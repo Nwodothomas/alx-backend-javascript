@@ -1,0 +1,77 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\23470\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\23470\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\23470\bin;C:\Program Files\Python311\Scripts;C:\Program Files\Python311;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files (x86)\sqlite3;GREAT;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY;C:\HashiCorp\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs;C:\Program Files\Python311\Scripts;C:\Program Files\Python311;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files (x86)\sqlite3;GREAT;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY;C:\HashiCorp\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs;path\to\venv\Scripts;C:\Users\23470\AppData\Local\OneDrive\Microsoft VS Code\bin;C:\Users\23470\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\23470\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:628:28)
+      at ClientRequest.emit (node:events:514:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:847:9)
+      at Object.onceWrapper (node:events:628:28)
+      at TLSSocket.emit (node:events:526:35)
+      at Socket._onTimeout (node:net:571:8)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7)
+
+npm manifest: 
+  {
+    "name": "0x06-unittests_in_js",
+    "version": "1.0.0",
+    "description": "A basic unittests in Node.js Project",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha '*.test.js'",
+      "lint": "eslint .",
+      "lint-fix": "eslint --fix ."
+      
+    },
+    "author": "Thomas Nwodo",
+    "license": "ISC",
+    "dependencies": {
+      "mocha": "^10.2.0"
+    },
+    "devDependencies": {
+      "chai": "^4.3.7",
+      "babel-cli": "^6.26.0",
+      "babel-preset-env": "^1.7.0",
+      "nodemon": "^2.0.2",
+      "eslint": "^6.4.0",
+      "eslint-config-airbnb-base": "^14.0.0",
+      "eslint-plugin-import": "^2.18.2",
+      "eslint-plugin-jest": "^22.17.0",
+      "chai": "^4.2.0",
+      "mocha": "^6.2.2",
+      "request": "^2.88.0",
+      "sinon": "^7.5.0"
+      
+    },
+    "repository": "https://github.com/Nwodothomas/alx-backend-javascript",
+    "private": true,
+    "bugs": {
+      "url": "https://github.com/Nwodothomas/alx-backend-javascript/issues"
+    },
+    "homepage": "https://github.com/Nwodothomas/alx-backend-javascript",
+    "engines": {
+      "node": "18.x",
+      "npm": "9.x",
+      "yarn": "1.x"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
